@@ -42,7 +42,7 @@ def merge(left, right):
     return merged
 
 
-if name == "main":
+if __name__ == "__main__":
     input_str = input("Enter numbers, separated by ',': ")
 
     input_list = input_str.split(",")
